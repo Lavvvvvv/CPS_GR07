@@ -59,14 +59,18 @@ lib/libLCD.a(lcd.o)           build/default/production/src/main.o (lcd_initializ
                               build/default/production/src/main.o (__delay32)
 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-pic30-coff.a(data_init_standard.o)
                               /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-pic30-coff.a(crt0_standard.o) (_data_init_standard)
-/opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(printf_cdnopuxX.XXo)
-                              build/default/production/src/main.o (_printf_cdnopuxX)
+/opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(printf_s.XXo)
+                              build/default/production/src/main.o (_printf_0)
 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xfiles.XX_o)
                               build/default/production/src/main.o (_Stdout)
 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(fflush.XX_o)
                               build/default/production/src/main.o (_DNKfflush)
+/opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(printf_cdnopuxX.XXo)
+                              build/default/production/src/main.o (_printf_cdnopuxX)
 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(fwrite.XX_o)
-                              /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(printf_cdnopuxX.XXo) (fwrite)
+                              /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(printf_s.XXo) (fwrite)
+/opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xprintf_s.XXo)
+                              /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(printf_s.XXo) (__Printf_s)
 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xprintf_cdnopuxX.XXo)
                               /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(printf_cdnopuxX.XXo) (__Printf_cdnopuxX)
 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xfwprep.XX_o)
@@ -76,17 +80,21 @@ lib/libLCD.a(lcd.o)           build/default/production/src/main.o (lcd_initializ
 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(memcpy.XX_o)
                               /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(fwrite.XX_o) (memcpy)
 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xvacopy.XX_o)
-                              /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xprintf_cdnopuxX.XXo) (_Vacopy)
+                              /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xprintf_s.XXo) (_Vacopy)
 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(strchr.XX_o)
-                              /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xprintf_cdnopuxX.XXo) (strchr)
+                              /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xprintf_s.XXo) (strchr)
+/opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xputfld_s.XXo)
+                              /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xprintf_s.XXo) (__Putfld_s)
+/opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xputtxt.XX_o)
+                              /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xprintf_s.XXo) (_Puttxt)
 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xputfld_cdnopuxX.XXo)
                               /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xprintf_cdnopuxX.XXo) (__Putfld_cdnopuxX)
-/opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xputtxt.XX_o)
-                              /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xprintf_cdnopuxX.XXo) (_Puttxt)
 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(malloc.XX_o)
                               /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xfwprep.XX_o) (malloc)
 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(fclose.XX_o)
                               /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xfwprep.XX_o) (_Closreg)
+/opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(strlen.XX_o)
+                              /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xputfld_s.XXo) (strlen)
 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xlitob.XX_o)
                               /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xputfld_cdnopuxX.XXo) (_Litob)
 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xgetmem.XX_o)
@@ -115,6 +123,10 @@ lib/libLCD.a(lcd.o)           build/default/production/src/main.o (lcd_initializ
                               /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xlitob.XX_o) (__divsi3)
 /opt/microchip/xc16/v1.36/bin/bin/../../lib/libm-coff.a(divmoddi3.o)
                               /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xlitob.XX_o) (__udivdi3)
+/opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xputfld_cdnopsuxX.XXo)
+                              (__Putfld_cdnopsuxX)
+/opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xprintf_cdnopsuxX.XXo)
+                              (__Printf_cdnopsuxX)
 
 
 xc16-ld 1.36 (B)
@@ -123,13 +135,13 @@ xc16-ld 1.36 (B)
 
 section                    address   length (PC units)   length (bytes) (dec)
 -------                    -------   -----------------   --------------------
-.text                        0x200               0xfaa          0x177f  (6015)
-.const                      0x11aa                0x36            0x51  (81)
-.text                       0x11e0               0x4c2           0x723  (1827)
-.dinit                      0x16a2                0xc8           0x12c  (300)
-.text                       0x176a                0x1a            0x27  (39)
+.text                        0x200              0x103c          0x185a  (6234)
+.const                      0x123c                0x36            0x51  (81)
+.text                       0x1272               0x4e0           0x750  (1872)
+.dinit                      0x1752                0xc8           0x12c  (300)
+.text                       0x181a                0x1a            0x27  (39)
 
-                 Total "program" memory used (bytes):         0x2046  (8262) 3%
+                 Total "program" memory used (bytes):         0x214e  (8526) 3%
 
 
 "data" Memory  [Origin = 0x800, Length = 0x7800]
@@ -190,132 +202,154 @@ External Symbols in Program Memory (by address):
                   0x000240                  ___delay32
                   0x000262                  __data_init
                   0x000262                  __data_init_standard
-                  0x0002e4                  __U1RXInterrupt
-                  0x00030e                  __DefaultInterrupt
-                  0x000312                  printf_cdnopuxX.XXo:_prout
-                  0x00032e                  __printf_cdnopuxX
-                  0x00033e                  __DNKfflush
-                  0x0003b4                  _fwrite
-                  0x00045c                  ___Printf_cdnopuxX
-                  0x0005c0                  __Fwprep
-                  0x00064e                  _memchr
-                  0x000662                  _memcpy
-                  0x000670                  __Vacopy
-                  0x000674                  _strchr
-                  0x00068c                  ___Putfld_cdnopuxX
-                  0x0008b0                  __Puttxt
-                  0x000a8e                  _malloc
-                  0x000ae6                  __Closreg
-                  0x000af8                  _fclose
-                  0x000b7c                  fclose.XX_o:_closeall
-                  0x000b92                  __Litob
-                  0x000df0                  __Getmem
-                  0x000e04                  _free
-                  0x000e68                  __Atexit
-                  0x000f76                  ___umodsi3
-                  0x000f7c                  ___udivsi3
-                  0x000f9c                  ___divsi3
-                  0x000ffa                  ___udivmoddi3
-                  0x00108a                  ___udivdi3
-                  0x001098                  ___umoddi3
-                  0x0010a0                  ___divdi3
-                  0x0010ce                  ___moddi3
-                  0x0011a2                  _OpenUART1
-                  0x0011e0                  _lcd_initialize
-                  0x001204                  _lcd_check_flow_control
-                  0x00120a                  _lcd_send
-                  0x001234                  _lcd_send_str
-                  0x001254                  _lcd_send_cmd
-                  0x001266                  _clearLCD
-                  0x001272                  _setDebug
-                  0x001288                  _backLight
-                  0x00129e                  _drawCircle
-                  0x0012ca                  _toggleCRLF
-                  0x0012d6                  _eraseBlock
-                  0x001302                  _resetLCD
-                  0x00130e                  _changeBaud
-                  0x001330                  _toggleFont
-                  0x00133c                  _setFontMode
-                  0x001352                  _drawSprite
-                  0x00137e                  _drawLine
-                  0x0013b4                  _uploadSprite
-                  0x0013ec                  _drawBox
-                  0x001422                  _togglePixel
-                  0x00147a                  _drawFilledBox
-                  0x0014ac                  _reverseColor
-                  0x0014b8                  _toggleSplash
-                  0x0014c4                  _drawData
-                  0x001518                  _gotoPosition
-                  0x00153c                  _gotoLine
-                  0x00154e                  _main
-                  0x00176a                  _led_init
+                  0x0002e8                  __T1Interrupt
+                  0x00030c                  __U1RXInterrupt
+                  0x000336                  __DefaultInterrupt
+                  0x00033a                  printf_s.XXo:_prout
+                  0x000356                  __printf_0
+                  0x000356                  __printf_s
+                  0x000366                  __DNKfflush
+                  0x0003dc                  printf_cdnopuxX.XXo:_prout
+                  0x0003f8                  __printf_cdnopuxX
+                  0x000408                  _fwrite
+                  0x0004b0                  __Fwprep
+                  0x00053e                  _memchr
+                  0x000552                  _memcpy
+                  0x000560                  __Vacopy
+                  0x000564                  _strchr
+                  0x00057c                  __Puttxt
+                  0x00075a                  _malloc
+                  0x0007b2                  __Closreg
+                  0x0007c4                  _fclose
+                  0x000848                  fclose.XX_o:_closeall
+                  0x00085e                  _strlen
+                  0x00086a                  __Litob
+                  0x000ac8                  __Getmem
+                  0x000adc                  _free
+                  0x000b40                  __Atexit
+                  0x000c4e                  ___Putfld_s
+                  0x000c4e                  ___Putfld_cdnopuxX
+                  0x000c4e                  ___Putfld_cdnopsuxX
+                  0x000ea4                  ___Printf_cdnopsuxX
+                  0x000ea4                  ___Printf_s
+                  0x000ea4                  ___Printf_cdnopuxX
+                  0x001008                  ___umodsi3
+                  0x00100e                  ___udivsi3
+                  0x00102e                  ___divsi3
+                  0x00108c                  ___udivmoddi3
+                  0x00111c                  ___udivdi3
+                  0x00112a                  ___umoddi3
+                  0x001132                  ___divdi3
+                  0x001160                  ___moddi3
+                  0x001234                  _OpenUART1
+                  0x001272                  _lcd_initialize
+                  0x001296                  _lcd_check_flow_control
+                  0x00129c                  _lcd_send
+                  0x0012c6                  _lcd_send_str
+                  0x0012e6                  _lcd_send_cmd
+                  0x0012f8                  _clearLCD
+                  0x001304                  _setDebug
+                  0x00131a                  _backLight
+                  0x001330                  _drawCircle
+                  0x00135c                  _toggleCRLF
+                  0x001368                  _eraseBlock
+                  0x001394                  _resetLCD
+                  0x0013a0                  _changeBaud
+                  0x0013c2                  _toggleFont
+                  0x0013ce                  _setFontMode
+                  0x0013e4                  _drawSprite
+                  0x001410                  _drawLine
+                  0x001446                  _uploadSprite
+                  0x00147e                  _drawBox
+                  0x0014b4                  _togglePixel
+                  0x00150c                  _drawFilledBox
+                  0x00153e                  _reverseColor
+                  0x00154a                  _toggleSplash
+                  0x001556                  _drawData
+                  0x0015aa                  _gotoPosition
+                  0x0015ce                  _gotoLine
+                  0x0015e0                  _main
+                  0x001682                  _run_counter_on_led
+                  0x001728                  _timer1_init
+                  0x00181a                  _led_init
 
 External Symbols in Program Memory (by name):
 
-                  0x0011a2                  _OpenUART1
-                  0x000e68                  __Atexit
-                  0x000ae6                  __Closreg
-                  0x00033e                  __DNKfflush
-                  0x00030e                  __DefaultInterrupt
-                  0x0005c0                  __Fwprep
-                  0x000df0                  __Getmem
-                  0x000b92                  __Litob
-                  0x0008b0                  __Puttxt
-                  0x0002e4                  __U1RXInterrupt
-                  0x000670                  __Vacopy
-                  0x00045c                  ___Printf_cdnopuxX
-                  0x00068c                  ___Putfld_cdnopuxX
+                  0x001234                  _OpenUART1
+                  0x000b40                  __Atexit
+                  0x0007b2                  __Closreg
+                  0x000366                  __DNKfflush
+                  0x000336                  __DefaultInterrupt
+                  0x0004b0                  __Fwprep
+                  0x000ac8                  __Getmem
+                  0x00086a                  __Litob
+                  0x00057c                  __Puttxt
+                  0x0002e8                  __T1Interrupt
+                  0x00030c                  __U1RXInterrupt
+                  0x000560                  __Vacopy
+                  0x000ea4                  ___Printf_cdnopsuxX
+                  0x000ea4                  ___Printf_cdnopuxX
+                  0x000ea4                  ___Printf_s
+                  0x000c4e                  ___Putfld_cdnopsuxX
+                  0x000c4e                  ___Putfld_cdnopuxX
+                  0x000c4e                  ___Putfld_s
                   0x000240                  ___delay32
-                  0x0010a0                  ___divdi3
-                  0x000f9c                  ___divsi3
-                  0x0010ce                  ___moddi3
-                  0x00108a                  ___udivdi3
-                  0x000ffa                  ___udivmoddi3
-                  0x000f7c                  ___udivsi3
-                  0x001098                  ___umoddi3
-                  0x000f76                  ___umodsi3
+                  0x001132                  ___divdi3
+                  0x00102e                  ___divsi3
+                  0x001160                  ___moddi3
+                  0x00111c                  ___udivdi3
+                  0x00108c                  ___udivmoddi3
+                  0x00100e                  ___udivsi3
+                  0x00112a                  ___umoddi3
+                  0x001008                  ___umodsi3
                   0x000262                  __data_init
                   0x000262                  __data_init_standard
-                  0x00032e                  __printf_cdnopuxX
+                  0x000356                  __printf_0
+                  0x0003f8                  __printf_cdnopuxX
+                  0x000356                  __printf_s
                   0x000230                  __psv_init
                   0x000200                  __resetPRI
-                  0x001288                  _backLight
-                  0x00130e                  _changeBaud
-                  0x001266                  _clearLCD
-                  0x0013ec                  _drawBox
-                  0x00129e                  _drawCircle
-                  0x0014c4                  _drawData
-                  0x00147a                  _drawFilledBox
-                  0x00137e                  _drawLine
-                  0x001352                  _drawSprite
-                  0x0012d6                  _eraseBlock
-                  0x000af8                  _fclose
-                  0x000e04                  _free
-                  0x0003b4                  _fwrite
-                  0x00153c                  _gotoLine
-                  0x001518                  _gotoPosition
-                  0x001204                  _lcd_check_flow_control
-                  0x0011e0                  _lcd_initialize
-                  0x00120a                  _lcd_send
-                  0x001254                  _lcd_send_cmd
-                  0x001234                  _lcd_send_str
-                  0x00176a                  _led_init
-                  0x00154e                  _main
-                  0x000a8e                  _malloc
-                  0x00064e                  _memchr
-                  0x000662                  _memcpy
-                  0x001302                  _resetLCD
-                  0x0014ac                  _reverseColor
-                  0x001272                  _setDebug
-                  0x00133c                  _setFontMode
-                  0x000674                  _strchr
-                  0x0012ca                  _toggleCRLF
-                  0x001330                  _toggleFont
-                  0x001422                  _togglePixel
-                  0x0014b8                  _toggleSplash
-                  0x0013b4                  _uploadSprite
-                  0x000b7c                  fclose.XX_o:_closeall
-                  0x000312                  printf_cdnopuxX.XXo:_prout
+                  0x00131a                  _backLight
+                  0x0013a0                  _changeBaud
+                  0x0012f8                  _clearLCD
+                  0x00147e                  _drawBox
+                  0x001330                  _drawCircle
+                  0x001556                  _drawData
+                  0x00150c                  _drawFilledBox
+                  0x001410                  _drawLine
+                  0x0013e4                  _drawSprite
+                  0x001368                  _eraseBlock
+                  0x0007c4                  _fclose
+                  0x000adc                  _free
+                  0x000408                  _fwrite
+                  0x0015ce                  _gotoLine
+                  0x0015aa                  _gotoPosition
+                  0x001296                  _lcd_check_flow_control
+                  0x001272                  _lcd_initialize
+                  0x00129c                  _lcd_send
+                  0x0012e6                  _lcd_send_cmd
+                  0x0012c6                  _lcd_send_str
+                  0x00181a                  _led_init
+                  0x0015e0                  _main
+                  0x00075a                  _malloc
+                  0x00053e                  _memchr
+                  0x000552                  _memcpy
+                  0x001394                  _resetLCD
+                  0x00153e                  _reverseColor
+                  0x001682                  _run_counter_on_led
+                  0x001304                  _setDebug
+                  0x0013ce                  _setFontMode
+                  0x000564                  _strchr
+                  0x00085e                  _strlen
+                  0x001728                  _timer1_init
+                  0x00135c                  _toggleCRLF
+                  0x0013c2                  _toggleFont
+                  0x0014b4                  _togglePixel
+                  0x00154a                  _toggleSplash
+                  0x001446                  _uploadSprite
+                  0x000848                  fclose.XX_o:_closeall
+                  0x0003dc                  printf_cdnopuxX.XXo:_prout
+                  0x00033a                  printf_s.XXo:_prout
 
 Memory Configuration
 
@@ -376,7 +410,7 @@ LOAD /opt/microchip/xc16/v1.36/bin/bin/../../lib/libfx-coff.a
                   0x000002          0x2 SHORT 0x0 ((ABSOLUTE (__reset) >> 0x10) & 0x7f)
                   0x000003          0x2 SHORT 0x0
 
-.text             0x000200        0xfaa
+.text             0x000200       0x103c
  *(.init)
  .init            0x000200         0x40 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-pic30-coff.a(crt0_standard.o)
                   0x000200                  _reset
@@ -389,77 +423,89 @@ LOAD /opt/microchip/xc16/v1.36/bin/bin/../../lib/libfx-coff.a
                   0x000262                  _data_init_standard
  *(.user_init)
  *(.handle)
- .handle          0x0002d8          0xc jump_table
+ .handle          0x0002d8         0x10 jump_table
  *(.isr*)
- .isr.text        0x0002e4         0x2a lib/libLCD.a(lcd.o)
-                  0x0002e4                  _U1RXInterrupt
- .isr             0x00030e          0x4 default_isr
-                  0x00030e                  _DefaultInterrupt
+ .isr.text        0x0002e8         0x24 build/default/production/src/main.o
+                  0x0002e8                  _T1Interrupt
+ .isr.text        0x00030c         0x2a lib/libLCD.a(lcd.o)
+                  0x00030c                  _U1RXInterrupt
+ .isr             0x000336          0x4 default_isr
+                  0x000336                  _DefaultInterrupt
  *(.libc)
- .libc            0x000312         0x2c /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(printf_cdnopuxX.XXo)
-                  0x000312                  printf_cdnopuxX.XXo:_prout
-                  0x00032e                  _printf_cdnopuxX
- .libc            0x00033e         0x76 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(fflush.XX_o)
-                  0x00033e                  _DNKfflush
- .libc            0x0003b4         0xa8 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(fwrite.XX_o)
-                  0x0003b4                  fwrite
- .libc            0x00045c        0x164 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xprintf_cdnopuxX.XXo)
-                  0x00045c                  __Printf_cdnopuxX
- .libc            0x0005c0         0x8e /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xfwprep.XX_o)
-                  0x0005c0                  _Fwprep
- .libc            0x00064e         0x14 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(memchr.XX_o)
-                  0x00064e                  memchr
- .libc            0x000662          0xe /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(memcpy.XX_o)
-                  0x000662                  memcpy
- .libc            0x000670          0x4 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xvacopy.XX_o)
-                  0x000670                  _Vacopy
- .libc            0x000674         0x18 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(strchr.XX_o)
-                  0x000674                  strchr
- .libc            0x00068c        0x224 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xputfld_cdnopuxX.XXo)
-                  0x00068c                  __Putfld_cdnopuxX
- .libc            0x0008b0        0x178 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xputtxt.XX_o)
-                  0x0008b0                  _Puttxt
- .libc            0x000a28         0xba /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(malloc.XX_o)
-                  0x000a8e                  malloc
- .libc            0x000ae2         0xb0 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(fclose.XX_o)
-                  0x000ae6                  _Closreg
-                  0x000af8                  fclose
-                  0x000b7c                  fclose.XX_o:_closeall
- .libc            0x000b92        0x25e /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xlitob.XX_o)
-                  0x000b92                  _Litob
- .libc            0x000df0         0x14 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xgetmem.XX_o)
-                  0x000df0                  _Getmem
- .libc            0x000e04         0x64 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(free.XX_o)
-                  0x000e04                  free
- .libc            0x000e68         0x18 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xatexit.XX_o)
-                  0x000e68                  _Atexit
- .libc            0x000e80         0x88 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-pic30-coff.a(write.Lo)
-                  0x000e84                  write
- .libc            0x000f08         0x16 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-pic30-coff.a(close.Lo)
-                  0x000f0c                  close
- .libc            0x000f1e         0x16 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-pic30-coff.a(remove.Lo)
-                  0x000f22                  remove
- .libc            0x000f34         0x28 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-pic30-coff.a(sbrk.Lo)
-                  0x000f34                  sbrk
- .libc            0x000f5c         0x1a /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-pic30-coff.a(brk.Lo)
-                  0x000f5c                  brk
+ .libc            0x00033a         0x2c /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(printf_s.XXo)
+                  0x00033a                  printf_s.XXo:_prout
+                  0x000356                  _printf_0
+                  0x000356                  _printf_s
+ .libc            0x000366         0x76 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(fflush.XX_o)
+                  0x000366                  _DNKfflush
+ .libc            0x0003dc         0x2c /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(printf_cdnopuxX.XXo)
+                  0x0003dc                  printf_cdnopuxX.XXo:_prout
+                  0x0003f8                  _printf_cdnopuxX
+ .libc            0x000408         0xa8 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(fwrite.XX_o)
+                  0x000408                  fwrite
+ .libc            0x0004b0         0x8e /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xfwprep.XX_o)
+                  0x0004b0                  _Fwprep
+ .libc            0x00053e         0x14 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(memchr.XX_o)
+                  0x00053e                  memchr
+ .libc            0x000552          0xe /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(memcpy.XX_o)
+                  0x000552                  memcpy
+ .libc            0x000560          0x4 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xvacopy.XX_o)
+                  0x000560                  _Vacopy
+ .libc            0x000564         0x18 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(strchr.XX_o)
+                  0x000564                  strchr
+ .libc            0x00057c        0x178 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xputtxt.XX_o)
+                  0x00057c                  _Puttxt
+ .libc            0x0006f4         0xba /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(malloc.XX_o)
+                  0x00075a                  malloc
+ .libc            0x0007ae         0xb0 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(fclose.XX_o)
+                  0x0007b2                  _Closreg
+                  0x0007c4                  fclose
+                  0x000848                  fclose.XX_o:_closeall
+ .libc            0x00085e          0xc /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(strlen.XX_o)
+                  0x00085e                  strlen
+ .libc            0x00086a        0x25e /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xlitob.XX_o)
+                  0x00086a                  _Litob
+ .libc            0x000ac8         0x14 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xgetmem.XX_o)
+                  0x000ac8                  _Getmem
+ .libc            0x000adc         0x64 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(free.XX_o)
+                  0x000adc                  free
+ .libc            0x000b40         0x18 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xatexit.XX_o)
+                  0x000b40                  _Atexit
+ .libc            0x000b58         0x88 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-pic30-coff.a(write.Lo)
+                  0x000b5c                  write
+ .libc            0x000be0         0x16 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-pic30-coff.a(close.Lo)
+                  0x000be4                  close
+ .libc            0x000bf6         0x16 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-pic30-coff.a(remove.Lo)
+                  0x000bfa                  remove
+ .libc            0x000c0c         0x28 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-pic30-coff.a(sbrk.Lo)
+                  0x000c0c                  sbrk
+ .libc            0x000c34         0x1a /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-pic30-coff.a(brk.Lo)
+                  0x000c34                  brk
+ .libc            0x000c4e        0x256 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xputfld_cdnopsuxX.XXo)
+                  0x000c4e                  __Putfld_s
+                  0x000c4e                  __Putfld_cdnopuxX
+                  0x000c4e                  __Putfld_cdnopsuxX
+ .libc            0x000ea4        0x164 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xprintf_cdnopsuxX.XXo)
+                  0x000ea4                  __Printf_cdnopsuxX
+                  0x000ea4                  __Printf_s
+                  0x000ea4                  __Printf_cdnopuxX
  *(.libm)
- .libm            0x000f76          0x6 /opt/microchip/xc16/v1.36/bin/bin/../../lib/libm-coff.a(umodsi3.o)
-                  0x000f76                  __umodsi3
- .libm            0x000f7c         0x20 /opt/microchip/xc16/v1.36/bin/bin/../../lib/libm-coff.a(udivsi3.o)
-                  0x000f7c                  __udivsi3
- .libm            0x000f9c         0x1e /opt/microchip/xc16/v1.36/bin/bin/../../lib/libm-coff.a(divsi3.o)
-                  0x000f9c                  __divsi3
- .libm            0x000fba        0x1e8 /opt/microchip/xc16/v1.36/bin/bin/../../lib/libm-coff.a(divmoddi3.o)
-                  0x000ffa                  __udivmoddi3
-                  0x00108a                  __udivdi3
-                  0x001098                  __umoddi3
-                  0x0010a0                  __divdi3
-                  0x0010ce                  __moddi3
+ .libm            0x001008          0x6 /opt/microchip/xc16/v1.36/bin/bin/../../lib/libm-coff.a(umodsi3.o)
+                  0x001008                  __umodsi3
+ .libm            0x00100e         0x20 /opt/microchip/xc16/v1.36/bin/bin/../../lib/libm-coff.a(udivsi3.o)
+                  0x00100e                  __udivsi3
+ .libm            0x00102e         0x1e /opt/microchip/xc16/v1.36/bin/bin/../../lib/libm-coff.a(divsi3.o)
+                  0x00102e                  __divsi3
+ .libm            0x00104c        0x1e8 /opt/microchip/xc16/v1.36/bin/bin/../../lib/libm-coff.a(divmoddi3.o)
+                  0x00108c                  __udivmoddi3
+                  0x00111c                  __udivdi3
+                  0x00112a                  __umoddi3
+                  0x001132                  __divdi3
+                  0x001160                  __moddi3
  *(.libdsp)
  *(.lib*)
- .libperi         0x0011a2          0x8 /opt/microchip/xc16/v1.36/bin/bin/../../lib/dsPIC33F/libp33FJ256MC710-coff.a(OpenUART1.o)
-                  0x0011a2                  OpenUART1
+ .libperi         0x001234          0x8 /opt/microchip/xc16/v1.36/bin/bin/../../lib/dsPIC33F/libp33FJ256MC710-coff.a(OpenUART1.o)
+                  0x001234                  OpenUART1
 
 usercode
  *(usercode)
@@ -1841,7 +1887,7 @@ LOAD data_init
 LOAD default_isr
 
 __c30_signature
-                  0x00005e         0xd2
+                  0x00005e         0xde
  __c30_signature
                   0x00005e          0x6 build/default/production/src/led.o
  __c30_signature
@@ -1857,15 +1903,15 @@ __c30_signature
  __c30_signature
                   0x000082          0x6 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-pic30-coff.a(data_init_standard.o)
  __c30_signature
-                  0x000088          0x6 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(printf_cdnopuxX.XXo)
+                  0x000088          0x6 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(printf_s.XXo)
  __c30_signature
                   0x00008e          0x6 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xfiles.XX_o)
  __c30_signature
                   0x000094          0x6 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(fflush.XX_o)
  __c30_signature
-                  0x00009a          0x6 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(fwrite.XX_o)
+                  0x00009a          0x6 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(printf_cdnopuxX.XXo)
  __c30_signature
-                  0x0000a0          0x6 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xprintf_cdnopuxX.XXo)
+                  0x0000a0          0x6 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(fwrite.XX_o)
  __c30_signature
                   0x0000a6          0x6 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xfwprep.XX_o)
  __c30_signature
@@ -1877,13 +1923,13 @@ __c30_signature
  __c30_signature
                   0x0000be          0x6 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(strchr.XX_o)
  __c30_signature
-                  0x0000c4          0x6 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xputfld_cdnopuxX.XXo)
+                  0x0000c4          0x6 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xputtxt.XX_o)
  __c30_signature
-                  0x0000ca          0x6 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xputtxt.XX_o)
+                  0x0000ca          0x6 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(malloc.XX_o)
  __c30_signature
-                  0x0000d0          0x6 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(malloc.XX_o)
+                  0x0000d0          0x6 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(fclose.XX_o)
  __c30_signature
-                  0x0000d6          0x6 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(fclose.XX_o)
+                  0x0000d6          0x6 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(strlen.XX_o)
  __c30_signature
                   0x0000dc          0x6 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xlitob.XX_o)
  __c30_signature
@@ -1912,6 +1958,10 @@ __c30_signature
                   0x000124          0x6 /opt/microchip/xc16/v1.36/bin/bin/../../lib/libm-coff.a(divsi3.o)
  __c30_signature
                   0x00012a          0x6 /opt/microchip/xc16/v1.36/bin/bin/../../lib/libm-coff.a(divmoddi3.o)
+ __c30_signature
+                  0x000130          0x6 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xputfld_cdnopsuxX.XXo)
+ __c30_signature
+                  0x000136          0x6 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xprintf_cdnopsuxX.XXo)
 
 .nbss               0x0800          0x4
  .nbss              0x0800          0x2 build/default/production/src/main.o
@@ -1926,7 +1976,7 @@ __c30_signature
                     0x0854                  _Stderr
                     0x087c                  _Files
  .data              0x088c         0x22 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xlitob.XX_o)
- .data              0x08ae         0x1a /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xprintf_cdnopuxX.XXo)
+ .data              0x08ae         0x1a /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(xprintf_cdnopsuxX.XXo)
 
 .bss                0x08c8          0x4
  .bss               0x08c8          0x4 /opt/microchip/xc16/v1.36/bin/bin/../../lib/liblega-c-coff.a(malloc.XX_o)
@@ -1959,48 +2009,55 @@ __c30_signature
 .config_IESO      0xf80006          0x2
  .config_IESO     0xf80006          0x2 build/default/production/src/main.o
 
+.ivt._T1Interrupt
+                  0x00001a          0x2
+ .ivt._T1Interrupt
+                  0x00001a          0x2 build/default/production/src/main.o
+
 .ivt._U1RXInterrupt
                   0x00002a          0x2
  .ivt._U1RXInterrupt
                   0x00002a          0x2 lib/libLCD.a(lcd.o)
 
-.const              0x91aa         0x36 load address 0x0011aa  
- .const             0x91aa         0x36 build/default/production/src/main.o
+.const              0x923c         0x36 load address 0x00123c  
+ .const             0x923c         0x36 build/default/production/src/main.o
 
-.text             0x0011e0        0x4c2
- .text            0x0011e0        0x36e lib/libLCD.a(lcd.o)
-                  0x0011e0                  lcd_initialize
-                  0x001204                  lcd_check_flow_control
-                  0x00120a                  lcd_send
-                  0x001234                  lcd_send_str
-                  0x001254                  lcd_send_cmd
-                  0x001266                  clearLCD
-                  0x001272                  setDebug
-                  0x001288                  backLight
-                  0x00129e                  drawCircle
-                  0x0012ca                  toggleCRLF
-                  0x0012d6                  eraseBlock
-                  0x001302                  resetLCD
-                  0x00130e                  changeBaud
-                  0x001330                  toggleFont
-                  0x00133c                  setFontMode
-                  0x001352                  drawSprite
-                  0x00137e                  drawLine
-                  0x0013b4                  uploadSprite
-                  0x0013ec                  drawBox
-                  0x001422                  togglePixel
-                  0x00147a                  drawFilledBox
-                  0x0014ac                  reverseColor
-                  0x0014b8                  toggleSplash
-                  0x0014c4                  drawData
-                  0x001518                  gotoPosition
-                  0x00153c                  gotoLine
- .text            0x00154e        0x154 build/default/production/src/main.o
-                  0x00154e                  main
+.text             0x001272        0x4e0
+ .text            0x001272        0x36e lib/libLCD.a(lcd.o)
+                  0x001272                  lcd_initialize
+                  0x001296                  lcd_check_flow_control
+                  0x00129c                  lcd_send
+                  0x0012c6                  lcd_send_str
+                  0x0012e6                  lcd_send_cmd
+                  0x0012f8                  clearLCD
+                  0x001304                  setDebug
+                  0x00131a                  backLight
+                  0x001330                  drawCircle
+                  0x00135c                  toggleCRLF
+                  0x001368                  eraseBlock
+                  0x001394                  resetLCD
+                  0x0013a0                  changeBaud
+                  0x0013c2                  toggleFont
+                  0x0013ce                  setFontMode
+                  0x0013e4                  drawSprite
+                  0x001410                  drawLine
+                  0x001446                  uploadSprite
+                  0x00147e                  drawBox
+                  0x0014b4                  togglePixel
+                  0x00150c                  drawFilledBox
+                  0x00153e                  reverseColor
+                  0x00154a                  toggleSplash
+                  0x001556                  drawData
+                  0x0015aa                  gotoPosition
+                  0x0015ce                  gotoLine
+ .text            0x0015e0        0x172 build/default/production/src/main.o
+                  0x0015e0                  main
+                  0x001682                  run_counter_on_led
+                  0x001728                  timer1_init
 
-.dinit            0x0016a2         0xc8
- .dinit           0x0016a2         0xc8 data_init
+.dinit            0x001752         0xc8
+ .dinit           0x001752         0xc8 data_init
 
-.text             0x00176a         0x1a
- .text            0x00176a         0x1a build/default/production/src/led.o
-                  0x00176a                  led_init
+.text             0x00181a         0x1a
+ .text            0x00181a         0x1a build/default/production/src/led.o
+                  0x00181a                  led_init
