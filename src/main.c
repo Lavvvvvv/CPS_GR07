@@ -28,8 +28,19 @@ int main(){
     lcd_locate(0, 0);
     
     // Print Hello World
-    lcd_printf("Our Team Members are ; \r Aylin \r Ahmet \r lavinda \r");
-    lcd_locate(0, 5);
+    //lcd_printf("Our Team Members are: \r Aylin \r Ahmet \r lavinda \r");
+    lcd_printf("Members are:");
+    
+    lcd_locate(0, 1);
+    lcd_printf("Aylin");
+    
+    lcd_locate(0, 2);
+    lcd_printf("Ahmet");
+    
+    lcd_locate(0, 3);
+    lcd_printf("Lavinda");
+    
+    lcd_locate(0, 6);
 
 
     //LED ON
@@ -52,7 +63,7 @@ int main(){
     CLEARBIT(T1CONbits.TGATE);  // Disable Gated Timer mode
     TMR1 = 0x00;                // Clear timer register
     T1CONbits.TCKPS = 0b11;     // Select 1:256 Prescaler PR1=(T.FCY/Prescaler)-1
-    PR1 = 2499;                 // Load the period value
+    PR1 = 9999;                 // Load the period value
     IPC0bits.T1IP = 0x01;       // Set Timer1 Interrupt Priority Level
     CLEARBIT(IFS0bits.T1IF);    // Clear Timer1 Interrupt Flag
     SETBIT(IEC0bits.T1IE);      // Enable Timer1 interrupt
@@ -64,34 +75,34 @@ int main(){
 }
 
 //define interrupt function
-void attribute (( interrupt )) _T1Interrupt(void){
-    counter ++;
+void __attribute__ (( __interrupt__ )) _T1Interrupt(void){
+    counter++;
     uint8_t bit1=counter & BV(0);
     uint8_t bit2=counter & BV(1);
     uint8_t bit3=counter & BV(2);
     uint8_t bit4=counter & BV(3);
     uint8_t bit5=counter & BV(4);
 
-    if(bit1) {SETLED(LED1_PORT)}
-        else {CLEARLED(LED1_PORT)}
+    if(bit1) {SETLED(LED1_PORT);}
+        else {CLEARLED(LED1_PORT);}
 
-    if(bit2) {SETLED(LED2_PORT)}
-        else {CLEARLED(LED2_PORT)}
+    if(bit2) {SETLED(LED2_PORT);}
+        else {CLEARLED(LED2_PORT);}
 
-    if(bit3) {SETLED(LED3_PORT)}
-        else {CLEARLED(LED3_PORT)}
+    if(bit3) {SETLED(LED3_PORT);}
+        else {CLEARLED(LED3_PORT);}
         
-    if(bit4) {SETLED(LED4_PORT)}
-        else {CLEARLED(LED4_PORT)}
+    if(bit4) {SETLED(LED4_PORT);}
+        else {CLEARLED(LED4_PORT);}
 
-    if(bit5) {SETLED(LED5_PORT)}
-        else {CLEARLED(LED5_PORT)}
+    if(bit5) {SETLED(LED5_PORT);}
+        else {CLEARLED(LED5_PORT);}
 
 
 
     lcd_clear_row(5);
     lcd_locate(0,5);
-    lcd_printf(" counnter : %u",counter);
+    lcd_printf(" counter : %u",counter);
 
     IFS0bits.T1IF = 0;
 
