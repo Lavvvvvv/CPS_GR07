@@ -27,20 +27,22 @@ int main(){
     lcd_clear();
     lcd_locate(0, 0);
     
-    // Print Hello World
-    //lcd_printf("Our Team Members are: \r Aylin \r Ahmet \r lavinda \r");
-    lcd_printf("Members are:");
+    // Print Team members
+    lcd_printf("Our Team Members are: \r Aylin \r Ahmet \r lavinda \r");
     
-    lcd_locate(0, 1);
-    lcd_printf("Aylin");
     
-    lcd_locate(0, 2);
-    lcd_printf("Ahmet");
+//    lcd_printf("Members are:");
+//    
+//    lcd_locate(0, 1);
+//    lcd_printf("Aylin");
+//    
+//    lcd_locate(0, 2);
+//    lcd_printf("Ahmet");
+//    
+//    lcd_locate(0, 3);
+//    lcd_printf("Lavinda");
     
-    lcd_locate(0, 3);
-    lcd_printf("Lavinda");
     
-    lcd_locate(0, 6);
 
 
     //LED ON
