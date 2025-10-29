@@ -57,7 +57,8 @@ int main(){
     CLEARBIT(IFS0bits.T1IF);    // Clear Timer1 Interrupt Flag
     SETBIT(IEC0bits.T1IE);      // Enable Timer1 interrupt
     SETBIT(T1CONbits.TON);      // Start Timer
-    
+    // HI LAVINDA THIS IS BULLSHIT
+	
     // Stop
     while(1)
         ;
